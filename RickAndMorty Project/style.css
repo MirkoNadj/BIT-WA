@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(./rick-morty-background-14.png);
+    background-size:contain;
+    background-attachment: fixed;
+}
+    
+.pagination ul {
+    display: flex;
+    flex-wrap: wrap;   
+    background: rgb(255, 237, 136);
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.pagination ul li {
+    color: black;
+    list-style: none;
+    text-align:center;
+    cursor:pointer;
+    width: 70px;
+    padding: 5px 5px;
+    margin: 0px 3px;
+    border-radius: 5px;
+}
+
+.pagination ul li:hover {
+    background: rgb(226, 223, 190);
+}
+
+.pagination ul li:active {
+    background: rgb(226, 219, 155);
+}
+
+.active {
+    background-color: rgb(212, 203, 117);
+}
+
+.disabled {   
+    pointer-events: none;
+    opacity: 50%;
+}
+
+
+.card-body {
+    overflow: hidden;
+}
+.card-title {
+    cursor:pointer;    
+}
+
+.card-title:hover {
+    font-weight: bold;
+}
+.likeBtn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 234, 118);
+    border-radius: 10px;
+    border-color: black;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.63);
+    margin-top: 40px;
+}
+.info h2 {
+    color:rgb(255, 237, 136);
+}
+
+.infoImg {
+    text-align: center;
+    margin: 40px auto;
+}
+    
