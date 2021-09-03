@@ -1,0 +1,15 @@
+.header {    
+    background-color: red;
+    height: 100px;
+    text-align: center;
+}
+
+ul {
+    margin: 10px;
+}
+
+li {
+    display: inline-block;    
+    text-decoration: none;
+    margin: 10px
+}
